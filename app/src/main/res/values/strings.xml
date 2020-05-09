@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">myWork</string>
+    <string name="Dial">Dial</string>
+    <string name="Call">Call</string>
+    <string name="welcome">欢迎来到通讯录！</string>
+    <string name="enter">进入程序</string>
+    <string name="quit">退出程序</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_weight="2"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ListView android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/listView"
+    >
+    </ListView>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Dial"
+            android:background="#0000CC"
+            android:text="@string/Dial"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+
+    />
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Call"
+            android:background="#0000CC"
+            android:text="@string/Call"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+
+    />
+
+
+</LinearLayout>
