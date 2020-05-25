@@ -31,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
                         intent.putExtra(MainActivity.TAG_EXIT, true);
                         startActivity(intent);
                         break;
+                    case R.id.toShark:
+                        Intent intent1 = new Intent(MainActivity.this, shark.class);
+                        startActivity(intent1);
                     default:
                         break;
                 }
@@ -40,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
         enter.setOnClickListener(choiceListener);
         Button quit = findViewById(R.id.quit);
         quit.setOnClickListener(choiceListener);
+        Button sharkButton = findViewById(R.id.toShark);
+        sharkButton.setOnClickListener(choiceListener);
     }
 
     @Override

@@ -5,5 +5,7 @@
     <string name="welcome">欢迎来到通讯录！</string>
     <string name="enter">进入程序</string>
     <string name="quit">退出程序</string>
+    <string name="Shark">进入传感器</string>
+    <string name="sharkTimes">手机抖动了0次</string>
 
 </resources>
